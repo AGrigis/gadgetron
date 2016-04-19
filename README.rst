@@ -22,7 +22,7 @@ Install requirements
 
 1. Install ``Virtual clone drive`` (both utilities) from::
 
-        ftp://ftp.cea.fr/pub/unati/gadgetron/VirtualCloneDrive-5.5/SetupVirtualCloneDrive5500.exe
+    ftp://ftp.cea.fr/pub/unati/gadgetron/VirtualCloneDrive-5.5/SetupVirtualCloneDrive5500.exe
 
 2. ``Configure your file browser``: Option des dossiers et de recherche -> Affichage -> décocher utiliser assistant partage.
 
@@ -66,7 +66,7 @@ Install optionals
 
 10. ``Install NSIS`` from::
 
-        ftp://ftp.cea.fr/pub/unati/gadgetron/NSIS/nsis-2.50-setup.exe
+    ftp://ftp.cea.fr/pub/unati/gadgetron/NSIS/nsis-2.50-setup.exe
 
 11. ``Install NSIS editor`` from::
 
