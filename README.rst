@@ -50,7 +50,8 @@ Install requirements
 
    - Create folders 'atlmfc\include' and 'atlmfc\lib\amd64' in 'C:\MSVS2008\VC'.
 
-   - Copy 'Wddk\inc\atl71' and 'Wddk\inc\mfc42' folders content in 'MSVS2008\VC\atlmfc\include'. 
+   - Copy 'Wddk\inc\atl71' and 'Wddk\inc\mfc42' folders content in 'MSVS2008\VC\atlmfc\include':
+   
          * atlconv.h (keep atl)
          * atldef.h (keep atl)
 
@@ -84,12 +85,13 @@ Install & configure IDEA
 
 13. ``Change the mont type`` from 'cifs' to 'vboxsf':
 
-    - Edit file 'C:\MIDEA\N4_VE11B_LATEST_20150530\n4\pkg\MrApplications\MrIDEA\VMAddons\mntview.sh'.
+    - Edit file 'C:\MIDEA\N4_VE11B_LATEST_20150530\n4\pkg\MrApplications\MrIDEA\VMAddons\mntview.sh':
+    
          * 144: MountType=vboxsf
          * 225: options="" 
          * 224: mountSource=$shareName
 
-    - Add a 'SnapshotView' shared folder to VB mars machine pointing to 'C:\MIDEA\N4_VE11B_LATEST_20150530'. Edit 'C:\MIDEA\VM_VE11B\.VirtualBox\Machines\mars\mars.xml'.
+    - Add a 'SnapshotView' shared folder to VB mars machine pointing to 'C:\MIDEA\N4_VE11B_LATEST_20150530'. Edit 'C:\MIDEA\VM_VE11B\.VirtualBox\Machines\mars\mars.xml':
          * 53::
 
             <SharedFolders>
