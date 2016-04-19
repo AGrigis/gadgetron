@@ -22,29 +22,29 @@ Install requirements
 
 1. Install ``Virtual clone drive`` (both utilities) from::
 
-    ftp://ftp.cea.fr/pub/unati/gadgetron/VirtualCloneDrive-5.5/SetupVirtualCloneDrive5500.exe
+        ftp://ftp.cea.fr/pub/unati/gadgetron/VirtualCloneDrive-5.5/SetupVirtualCloneDrive5500.exe
 
 2. ``Configure your file browser``: Option des dossiers et de recherche -> Affichage -> décocher utiliser assistant partage.
 
 3. Install ``Visual Studio 2008 Express`` in 'C:\MSVS2008' (problem with SQL server install -> uncheck) from::
 
-    ftp://ftp.cea.fr/pub/unati/gadgetron/VS2008-Express-withSP1/vcsetup.exe
+        ftp://ftp.cea.fr/pub/unati/gadgetron/VS2008-Express-withSP1/vcsetup.exe
 
 4. Install ``KB2538243`` patch from::
 
-    ftp://ftp.cea.fr/pub/unati/gadgetron/Windows-redistributables/KB2538243/vcredist_x64.exe
+        ftp://ftp.cea.fr/pub/unati/gadgetron/Windows-redistributables/KB2538243/vcredist_x64.exe
 
 5. `Install `redistributable 8.0.50727.42 VC++-2005 x86`` from::
 
-    ftp://ftp.cea.fr/pub/unati/gadgetron/Windows-redistributables/redistVC2005-8.0.50727.42/vcredist_x86.exe
+        ftp://ftp.cea.fr/pub/unati/gadgetron/Windows-redistributables/redistVC2005-8.0.50727.42/vcredist_x86.exe
 
 6. Install ``Microsoft Windows SDK 6.1`` in 'C:\WinSDK\Windows\v6.1' (install custom, select developer Tools, default) from::
 
-    ftp://ftp.cea.fr/pub/unati/gadgetron/WindowsSDK-v6.1/Setup.exe
+        ftp://ftp.cea.fr/pub/unati/gadgetron/WindowsSDK-v6.1/Setup.exe
 
 7. Install ``Windows driver kit 7.1`` using Virtual Clone Drive from::
 
-    ftp://ftp.cea.fr/pub/unati/gadgetron/WindowsWDDK-7.1/GRMWDK_EN_7600_1.ISO
+        ftp://ftp.cea.fr/pub/unati/gadgetron/WindowsWDDK-7.1/GRMWDK_EN_7600_1.ISO
 
 8. ``File manipulation``:
 
@@ -66,11 +66,11 @@ Install optionals
 
 10. ``Install NSIS`` from::
 
-    ftp://ftp.cea.fr/pub/unati/gadgetron/NSIS/nsis-2.50-setup.exe
+        ftp://ftp.cea.fr/pub/unati/gadgetron/NSIS/nsis-2.50-setup.exe
 
 11. ``Install NSIS editor`` from::
 
-    ftp://ftp.cea.fr/pub/unati/gadgetron/NSIS/nisedit2.0.3.exe
+        ftp://ftp.cea.fr/pub/unati/gadgetron/NSIS/nisedit2.0.3.exe
 
 
 Install & configure IDEA
@@ -78,7 +78,7 @@ Install & configure IDEA
 
 12. ``Install IDEA`` using Virtual Clone Drive from::
 
-    ftp://ftp.cea.fr/pub/unati/gadgetron/Siemens-IDEA-VE11/IDEA_VE11B.iso
+        ftp://ftp.cea.fr/pub/unati/gadgetron/Siemens-IDEA-VE11/IDEA_VE11B.iso
 
     Create a shortcut from 'C:\MIDEA\bin\IDEA.cmd' to the desktop (IDEA.Net) and update icon.
 
@@ -100,3 +100,6 @@ Install & configure IDEA
 
         sys
         select PRISMA-XR (3)
+
+
+
